@@ -1,9 +1,9 @@
 {
-  "version": "1.1.0",
-  "file": "releases/app-1.1.0.html",
-  "size": 235456,
-  "sha256": "1083cd4ec7c759e22af0a9b7ee48fa02a3474e64d51aeb8b67d1e2467173bc69",
-  "notes": "首个支持在线更新的版本",
+  "version": "1.1.1",
+  "file": "releases/app-1.1.1.html",
+  "size": 235671,
+  "sha256": "1f3a54c8139519ec1cac8ed45d7b449bf5c58b1202ea9245c0cca3c8a6c85748",
+  "notes": "版本号旁显示「已在线更新」，方便确认更新是否生效",
   "date": "2026-07-30",
   "minNativeVersion": "1.1.0"
 }
