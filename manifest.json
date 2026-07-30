@@ -1,9 +1,9 @@
 {
-  "version": "1.1.3",
-  "file": "releases/app-1.1.3.html",
-  "size": 233720,
-  "sha256": "2ada15abc98fce7dc637692208816a0d262d607322224ba68c4632264b51c72c",
-  "notes": "移除视频模块，APK 体积由 98MB 降至约 1.6MB",
+  "version": "1.1.4",
+  "file": "releases/app-1.1.4.html",
+  "size": 226698,
+  "sha256": "f67a3a9614939e9d9a1a41d36f6ad7dc90bb936b3e3e3c6c44f1f9e876453724",
+  "notes": "移除录音/影子跟读功能；古诗词改为逐句朗读并高亮当前句；启动时预热中文 TTS 提升首读命中率",
   "date": "2026-07-30",
-  "minNativeVersion": "1.1.2"
+  "minNativeVersion": "1.1.3"
 }
