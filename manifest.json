@@ -1,9 +1,9 @@
 {
-  "version": "1.1.2",
-  "file": "releases/app-1.1.2.html",
-  "size": 235668,
-  "sha256": "16c1586a5dddec0b187411a3a586b6cb9c484ca8979d6aeef844e9b57e48b1ce",
-  "notes": "提升在线更新的稳定性",
+  "version": "1.1.3",
+  "file": "releases/app-1.1.3.html",
+  "size": 233720,
+  "sha256": "2ada15abc98fce7dc637692208816a0d262d607322224ba68c4632264b51c72c",
+  "notes": "移除视频模块，APK 体积由 98MB 降至约 1.6MB",
   "date": "2026-07-30",
-  "minNativeVersion": "1.1.1"
+  "minNativeVersion": "1.1.2"
 }
