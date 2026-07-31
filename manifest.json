@@ -1,9 +1,9 @@
 {
-  "version": "1.1.6",
-  "file": "releases/app-1.1.6.html",
-  "size": 235621,
-  "sha256": "602a67f59fd7e2d8001280375768a72b0426ce50a510dde75b110c1ff85df8b8",
-  "notes": "新增设置页与多用户账号（头像/登录名/检查更新/版本号/切换账号）；修复古诗词发音（在线中文TTS兜底）；全面屏安全区适配（viewport-fit=cover+100dvh）",
+  "version": "1.1.7",
+  "file": "releases/app-1.1.7.html",
+  "size": 242977,
+  "sha256": "437cb43920705fbe24b3e4e0ba6c0bddcefb2ed009a9dd5c7037db29c19e6962",
+  "notes": "新增天文科学板块（宇宙·星球·星座），含 20 张天文知识卡片，贴合天文馆科普",
   "date": "2026-07-31",
-  "minNativeVersion": "1.1.5"
+  "minNativeVersion": "1.1.6"
 }
