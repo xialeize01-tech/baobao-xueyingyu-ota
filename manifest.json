@@ -1,9 +1,9 @@
 {
-  "version": "1.1.4",
-  "file": "releases/app-1.1.4.html",
-  "size": 226698,
-  "sha256": "f67a3a9614939e9d9a1a41d36f6ad7dc90bb936b3e3e3c6c44f1f9e876453724",
-  "notes": "移除录音/影子跟读功能；古诗词改为逐句朗读并高亮当前句；启动时预热中文 TTS 提升首读命中率",
-  "date": "2026-07-30",
-  "minNativeVersion": "1.1.3"
+  "version": "1.1.5",
+  "file": "releases/app-1.1.5.html",
+  "size": 227325,
+  "sha256": "31e03977ff5aa4599c8b4f8ff9766aece6b10c69f5acb68cbfe32f4f0d76ac54",
+  "notes": "修复切页卡死/整屏空白 bug：switchTab 不再对详情面板设 inline display:none（与 .active 规则冲突），四处打开详情函数改为清除遗留 inline 后显示",
+  "date": "2026-07-31",
+  "minNativeVersion": "1.1.4"
 }
