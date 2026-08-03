@@ -1,9 +1,9 @@
 {
-  "version": "1.1.7",
-  "file": "releases/app-1.1.7.html",
-  "size": 242977,
-  "sha256": "437cb43920705fbe24b3e4e0ba6c0bddcefb2ed009a9dd5c7037db29c19e6962",
-  "notes": "新增天文科学板块（宇宙·星球·星座），含 20 张天文知识卡片，贴合天文馆科普",
-  "date": "2026-07-31",
-  "minNativeVersion": "1.1.6"
+  "version": "1.1.8",
+  "file": "releases/app-1.1.8.html",
+  "size": 248178,
+  "sha256": "76535b07d4d523e4831ba52281add33a342639c7d39a5f71d73eeb7ea09da0dd",
+  "notes": "修复发音子系统：中文改用百度TTS主源、日韩发音接入在线兜底、修复英文名在线发音URL拼接、账号名XSS转义、新增删除账号",
+  "date": "2026-08-03",
+  "minNativeVersion": "1.1.7"
 }
