@@ -1,9 +1,9 @@
 {
-  "version": "1.1.8",
-  "file": "releases/app-1.1.8.html",
-  "size": 248178,
-  "sha256": "76535b07d4d523e4831ba52281add33a342639c7d39a5f71d73eeb7ea09da0dd",
-  "notes": "修复发音子系统：中文改用百度TTS主源、日韩发音接入在线兜底、修复英文名在线发音URL拼接、账号名XSS转义、新增删除账号",
+  "version": "1.2.0",
+  "file": "releases/app-1.2.0.html",
+  "size": 266239,
+  "sha256": "739e0faa1f8da2356ec13ed4908ff31d79b7ab588f8431921234ade9510cf823",
+  "notes": "新增修仙系列板块（本草·内经·伤寒·天纪人纪书架，本草纲目18味本草图文并茂、一页一味、可朗读），并合并首页+底部导航悬浮胶囊优化",
   "date": "2026-08-03",
-  "minNativeVersion": "1.1.7"
+  "minNativeVersion": "1.1.8"
 }
