@@ -1,9 +1,9 @@
 {
-  "version": "1.2.1",
-  "file": "releases/app-1.2.1.html",
-  "size": 277524,
-  "sha256": "2bbdcfc863378211906af40261e76469d49aea731bd2a92eccf5435456f7c4ec",
-  "notes": "修复修仙系列点击直达书架（去除冗余中间页）；黄帝内经/伤寒杂病论/天纪/人纪 四卷古籍已解锁并填好小学生图文内容（全书架共50条）",
-  "date": "2026-08-03",
-  "minNativeVersion": "1.2.0"
+  "version": "1.2.2",
+  "file": "releases/app-1.2.2.html",
+  "size": 466920,
+  "sha256": "5d32dd7cb5b9a6f496735d60eb0b56ee0c0139af73aaf82a4245e0ae1424e4d5",
+  "notes": "修仙系列每卷扩充至100条（合计500）；医书新增药性/功效、来源出处、古籍大意字段；详情页与新字段卡片、看医生安全提醒",
+  "date": "2026-08-04",
+  "minNativeVersion": "1.2.1"
 }
