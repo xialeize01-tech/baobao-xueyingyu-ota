@@ -1,9 +1,9 @@
 {
-  "version": "1.3.2",
-  "file": "releases/app-1.3.2.html",
-  "size": 636673,
-  "sha256": "636115946a6da6957f7655153fd556119d5f751fe7c59886948077e4e680a140",
-  "notes": "修复古诗冒险过关弹窗无法退出（新增closeAllWinOverlays，在下一关/选关/首页导航及点遮罩处关闭弹窗）",
+  "version": "1.3.3",
+  "file": "releases/app-1.3.3.html",
+  "size": 637080,
+  "sha256": "b19495f1649159e627bf89c07080ffa0037d7566660bd169623478f77a57051c",
+  "notes": "应用内品牌升级：首页顶部新增 🌽 苞米同学 图标与名称；页面标题与进度导出文件名同步改为苞米同学",
   "date": "2026-08-06",
   "minNativeVersion": "1.3.0"
 }
