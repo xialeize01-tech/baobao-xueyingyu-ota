@@ -1,0 +1,8 @@
+{
+  "apkVersion": "1.3.3",
+  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.3.3/baobao-xueyingyu-debug-1.3.3.apk",
+  "apkPage": "https://xialeize01-tech.github.io/baobao-xueyingyu-ota/",
+  "apkSize": 22946066,
+  "notes": "新增应用内「发现新版本」更新提示，可一键跳转本页升级；优化若干体验。",
+  "date": "2026-08-06"
+}
