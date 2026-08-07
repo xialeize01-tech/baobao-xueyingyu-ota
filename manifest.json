@@ -1,9 +1,9 @@
 {
-  "version": "1.3.4",
-  "file": "releases/app-1.3.4.html",
-  "size": 643638,
-  "sha256": "b9c0a6ced4dc3558d56716235cd63d59bd2e2d790ea322ed47c4f8345f693bc9",
-  "notes": "优化发音引擎（修复多数点击无声音）、新增「已学会」角标、新增全面屏左缘滑动返回手势。",
+  "version": "1.3.5",
+  "file": "releases/app-1.3.5.html",
+  "size": 888228,
+  "sha256": "1a6cb9bb2088b4c6acea76e0e0808543ad65383255a5ec05b8265d3518d271df",
+  "notes": "全球旅行大升级：真实世界地图(179国)可缩放/平移+搜索，各国首都/人口/面积/位置/语言/货币/人均收入/资源一键查看；中国地图下钻到市级，点城市看历史文化故事与大学排名",
   "date": "2026-08-07",
-  "minNativeVersion": "1.3.3"
+  "minNativeVersion": "1.3.4"
 }
