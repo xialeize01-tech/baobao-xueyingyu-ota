@@ -1,8 +1,8 @@
 {
-  "apkVersion": "1.3.6",
-  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.3.6/baobao-xueyingyu-debug-1.3.6.apk",
+  "apkVersion": "1.3.7",
+  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.3.7/baobao-xueyingyu-debug-1.3.7.apk",
   "apkPage": "https://xialeize01-tech.github.io/baobao-xueyingyu-ota/",
-  "apkSize": 22982820,
-  "notes": "修复地图点击无响应：现在轻点国家即可查看介绍，轻点省份可下钻到市级（历史文化故事 + 大学排名）。新增选中高亮与操作提示，修正城市页大学数量显示。",
+  "apkSize": 22992191,
+  "notes": "天文科学新增「奇门八卦」主题（阴阳 / 八卦 / 五行 / 天干地支 / 九宫洛书 / 奇门遁甲，配手绘 SVG 图示）；星座由 6 个补全为黄道十二星座 + 四季名星座。",
   "date": "2026-08-07"
 }
