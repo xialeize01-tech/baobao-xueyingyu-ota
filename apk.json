@@ -1,8 +1,8 @@
 {
-  "apkVersion": "1.3.7",
-  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.3.7/baobao-xueyingyu-debug-1.3.7.apk",
+  "apkVersion": "1.3.8",
+  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.3.8/baobao-xueyingyu-debug-1.3.8.apk",
   "apkPage": "https://xialeize01-tech.github.io/baobao-xueyingyu-ota/",
-  "apkSize": 22992191,
-  "notes": "天文科学新增「奇门八卦」主题（阴阳 / 八卦 / 五行 / 天干地支 / 九宫洛书 / 奇门遁甲，配手绘 SVG 图示）；星座由 6 个补全为黄道十二星座 + 四季名星座。",
-  "date": "2026-08-07"
+  "apkSize": 22992906,
+  "notes": "修复「点击更新后未重新安装」：加固原生桥接（onStart + onResume 双重注册 NativeBridge，openInBrowser 用 Intent.ACTION_VIEW 唤起系统浏览器），重写 openExternal 增加 WebView 内 location.href 兜底与可见下载链接提示，区分应用内 OTA 内容热更新（无需重装）与 APK 安装包更新（覆盖安装，进度不丢失）。",
+  "date": "2026-08-08"
 }
