@@ -1,9 +1,9 @@
 {
-  "version": "1.3.7",
-  "file": "releases/app-1.3.7.html",
-  "size": 918585,
-  "sha256": "d39d23b3e75bb769ba2719750ef0289b0ccc151230a650101eac4ede1b43c9cd",
-  "notes": "天文科学新增「奇门八卦」主题（阴阳/八卦/五行/干支/九宫/奇门六板块），并补全黄道十二星座与四季名星座",
-  "date": "2026-08-07",
-  "minNativeVersion": "1.3.6"
+  "version": "1.3.8",
+  "file": "releases/app-1.3.8.html",
+  "size": 920030,
+  "sha256": "8a47efc62407af76edec33a82a403e5b0a70f1a4967ff7aaa5b6f69ea871429f",
+  "notes": "更新机制加固：修复「检查更新」后无法打开浏览器重装 APK 的问题（openExternal 增加 WebView 内打开下载页兜底 + 链接可见提示；原生桥在 onResume 二次注册）。同时天文科学已含奇门八卦与黄道十二星座。",
+  "date": "2026-08-08",
+  "minNativeVersion": "1.3.7"
 }
