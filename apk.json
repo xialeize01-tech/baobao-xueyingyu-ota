@@ -1,8 +1,8 @@
 {
-  "apkVersion": "1.3.8",
-  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.3.8/baobao-xueyingyu-debug-1.3.8.apk",
+  "apkVersion": "1.3.9",
+  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.3.9/baobao-xueyingyu-debug-1.3.9.apk",
   "apkPage": "https://xialeize01-tech.github.io/baobao-xueyingyu-ota/",
-  "apkSize": 22992906,
-  "notes": "修复「点击更新后未重新安装」：加固原生桥接（onStart + onResume 双重注册 NativeBridge，openInBrowser 用 Intent.ACTION_VIEW 唤起系统浏览器），重写 openExternal 增加 WebView 内 location.href 兜底与可见下载链接提示，区分应用内 OTA 内容热更新（无需重装）与 APK 安装包更新（覆盖安装，进度不丢失）。",
-  "date": "2026-08-08"
+  "apkSize": 22993467,
+  "notes": "修复「点击更新只走应用内更新、不重装」：otaCheck 优先 await apkCheck 并跳过内容热更，消除与重载竞态；apkCheck 直接打开 APK 直链下载覆盖安装；新增常驻「可更新安装包」入口。",
+  "date": "2026-08-10"
 }

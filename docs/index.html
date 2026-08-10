@@ -50,10 +50,10 @@
     <div class="logo">🎈</div>
     <h1>宝宝学英语</h1>
     <div class="sub">6 岁宝宝英语启蒙乐园</div>
-    <div class="ver">最新版 v1.3.8</div>
+    <div class="ver">最新版 v1.3.9</div>
 
-    <a class="dl" href="https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.3.8/baobao-xueyingyu-debug-1.3.8.apk">⬇ 下载安装包（安卓 APK）</a>
-    <a class="dl mirror" href="https://ghproxy.net/https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.3.8/baobao-xueyingyu-debug-1.3.8.apk">国内加速下载</a>
+    <a class="dl" href="https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.3.9/baobao-xueyingyu-debug-1.3.9.apk">⬇ 下载安装包（安卓 APK）</a>
+    <a class="dl mirror" href="https://ghproxy.net/https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.3.9/baobao-xueyingyu-debug-1.3.9.apk">国内加速下载</a>
 
     <div class="qrwrap">
       <img src="qr.svg" alt="扫码下载" />
@@ -62,7 +62,7 @@
 
     <div class="notes">
       <b>本次更新：</b><br/>
-      修复「点击更新后未重新安装」问题：加固原生桥接（onStart + onResume 双重注册 NativeBridge，openInBrowser 用 Intent.ACTION_VIEW 唤起系统浏览器），并重写 openExternal 增加 WebView 内 location.href 兜底与可见下载链接提示，确保检测到新安装包时一定能打开浏览器下载并覆盖安装。同时区分两类更新提示——应用内 OTA 内容热更新（无需重装）与 APK 安装包更新（覆盖安装，进度不丢失）。
+      修复「点击更新只走应用内更新、不重装」问题：检查更新时优先检测安装包，发现新安装包直接弹出「下载并更新」并跳过内容热更，消除与页面重载的竞态；点击即打开 APK 直链下载覆盖安装；新增常驻「📦 可更新安装包」入口，关掉弹窗也能随时再点。
     </div>
 
     <div class="tip">
