@@ -1,9 +1,9 @@
 {
-  "version": "1.3.8",
-  "file": "releases/app-1.3.8.html",
-  "size": 920030,
-  "sha256": "8a47efc62407af76edec33a82a403e5b0a70f1a4967ff7aaa5b6f69ea871429f",
-  "notes": "更新机制加固：修复「检查更新」后无法打开浏览器重装 APK 的问题（openExternal 增加 WebView 内打开下载页兜底 + 链接可见提示；原生桥在 onResume 二次注册）。同时天文科学已含奇门八卦与黄道十二星座。",
-  "date": "2026-08-08",
-  "minNativeVersion": "1.3.7"
+  "version": "1.3.9",
+  "file": "releases/app-1.3.9.html",
+  "size": 921339,
+  "sha256": "ec2a9d6b8446aa676ea217962840eec228cfbffbab4bd9a5238851c55fda8c8c",
+  "notes": "修复「点击更新只走应用内更新、不重装」：otaCheck 优先 await apkCheck 并跳过内容热更；apkCheck 直接打开 APK 直链下载；新增常驻「可更新安装包」入口",
+  "date": "2026-08-10",
+  "minNativeVersion": "1.3.8"
 }
