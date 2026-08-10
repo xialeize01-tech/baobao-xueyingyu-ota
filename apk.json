@@ -1,8 +1,8 @@
 {
-  "apkVersion": "1.3.9",
-  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.3.9/baobao-xueyingyu-debug-1.3.9.apk",
+  "apkVersion": "1.4.0",
+  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.4.0/baobao-xueyingyu-debug-1.4.0.apk",
   "apkPage": "https://xialeize01-tech.github.io/baobao-xueyingyu-ota/",
-  "apkSize": 22993467,
-  "notes": "修复「点击更新只走应用内更新、不重装」：otaCheck 优先 await apkCheck 并跳过内容热更，消除与重载竞态；apkCheck 直接打开 APK 直链下载覆盖安装；新增常驻「可更新安装包」入口。",
+  "apkSize": 22999771,
+  "notes": "新增「单字查询」工具：输入英文单词即可美式/英式发音、查看有道释义与双语日常口语例句，并提供拆词联想/词根词缀/谐音三种邪修记忆法（离线可用）。WebView 放开 file:// 跨域限制以支持词典查询。",
   "date": "2026-08-10"
 }
