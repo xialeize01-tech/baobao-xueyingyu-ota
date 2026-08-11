@@ -1,7 +1,7 @@
 {
-  "apkVersion": "1.5.4",
-  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.5.4/baobao-xueyingyu-debug-v1.5.4.apk",
-  "notes": "v1.5.4 安装包：AI 密钥内嵌——默认 MiniMax 凭证已内置，开箱即用免输入；保留「⚙️ AI 密钥」可手动覆盖内置默认值。覆盖安装不丢失学习进度。",
+  "apkVersion": "1.5.6",
+  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.5.6/baobao-xueyingyu-debug-v1.5.6.apk",
+  "notes": "v1.5.6 安装包：修复 AI 拍照/选图无反应——原 Capacitor Camera 插件未接入原生工程导致调用悬空，改为内置 NativeBridge.takePhoto 桥（系统相机+相册，需授权相机权限或退化为相册选图），开箱即用。",
   "date": "2026-08-11",
-  "size": 25475820
+  "size": 25478392
 }
