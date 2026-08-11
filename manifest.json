@@ -1,9 +1,9 @@
 {
-  "version": "1.5.7",
-  "file": "releases/app-1.5.7.html",
-  "size": 968124,
-  "sha256": "22a4e5a9df1cbce67fedc66224dcca17e689565ef9d13fa44c28aff79de79911",
-  "notes": "AI 拍照/选图修复增强：选图改用自定义 HTML 浮层；拍照/发送/保存按钮改 inline onclick，避免 OTA 经 document.write 注入时初始化脚本失绑导致点击无反应。纯前端热更。",
+  "version": "1.5.8",
+  "file": "releases/app-1.5.8.html",
+  "size": 968262,
+  "sha256": "c6609cd6c5d8055d0b0a20df3818f3f4600d9d607973b6634fe126783e3b41ec",
+  "notes": "修复 OTA 误报「有新安装包」：apkCheck 比对所用 APK_VER 此前在发 v1.5.7 热更时被误降级为 1.5.6，写入 localStorage 后使已装 v1.5.7 安装包被判定为落后。现修正为 1.5.7，与线上 apk.json 一致，刷新后徽章不再误报。纯前端热更。",
   "date": "2026-08-11",
   "minNativeVersion": "1.5.6"
 }
