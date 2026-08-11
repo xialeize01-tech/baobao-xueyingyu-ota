@@ -1,9 +1,9 @@
 {
-  "version": "1.5.8",
-  "file": "releases/app-1.5.8.html",
-  "size": 968262,
-  "sha256": "c6609cd6c5d8055d0b0a20df3818f3f4600d9d607973b6634fe126783e3b41ec",
-  "notes": "修复 OTA 误报「有新安装包」：apkCheck 比对所用 APK_VER 此前在发 v1.5.7 热更时被误降级为 1.5.6，写入 localStorage 后使已装 v1.5.7 安装包被判定为落后。现修正为 1.5.7，与线上 apk.json 一致，刷新后徽章不再误报。纯前端热更。",
+  "version": "1.5.9",
+  "file": "releases/app-1.5.9.html",
+  "size": 969110,
+  "sha256": "9ed89791d604f6bf3f4d760c804b27fb6275b3f11323ded4ab05cf19ff38eb00",
+  "notes": "修复 AI 拍照后永远「正在识别中」卡死：根因为 __onPhoto 在调 aiCall 前把 aiState.busy 置 true，而 aiCall 首行 if(busy) return 直接拦截、AI 请求永不发出。现已在发起前清空 busy。同时：识别结果为空（多为 MiniMax 视觉模型 MiniMax-VL-01 账号未开通/鉴权异常）时显示明确引导与重试按钮，不再空白无提示。纯前端热更。",
   "date": "2026-08-11",
   "minNativeVersion": "1.5.6"
 }
