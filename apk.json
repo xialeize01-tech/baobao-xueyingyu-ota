@@ -1,7 +1,7 @@
 {
-  "apkVersion": "1.4.1",
-  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.4.1/baobao-xueyingyu-debug-v1.4.1.apk",
-  "notes": "v1.4.1 安装包：应用内下载安装闭环 + 全屏滑动返回修复。覆盖安装不丢失学习进度。",
+  "apkVersion": "1.5.1",
+  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.5.1/baobao-xueyingyu-debug-v1.5.1.apk",
+  "notes": "v1.5.1 安装包：AI 拍照答疑改为用户自带密钥（BYOK）模式——首次在 App 内输入 MiniMax API Key 与 Group ID，永久保存于本地，密钥不再写死在代码中；新增「⚙️ 密钥设置」入口可随时重填/更换。覆盖安装不丢失学习进度。",
   "date": "2026-08-11",
-  "size": 23004491
+  "size": 25471053
 }
