@@ -1,9 +1,9 @@
 {
-  "version": "1.5.4",
-  "file": "releases/app-1.5.4.html",
-  "size": 964325,
-  "sha256": "0549ed303dcf0b3df13d201e69aa04069f76471d40494daba1b072298f24c71a",
-  "notes": "AI 密钥内嵌：默认 MiniMax 凭证已内置，开箱即用免输入；保留「⚙️ AI 密钥」可手动覆盖",
+  "version": "1.5.5",
+  "file": "releases/app-1.5.5.html",
+  "size": 965434,
+  "sha256": "ef5e21fad0650f308db7d08f248d61662453334af34d611be9c1de010a5db1a8",
+  "notes": "更新逻辑优化：OTA 热更新优先于安装包下载；安装包更新降级为角落「可更新安装包」徽章，不再强制打断。纯前端改动自动热更，无需重装 APK。",
   "date": "2026-08-11",
-  "minNativeVersion": "1.5.3"
+  "minNativeVersion": "1.5.4"
 }
