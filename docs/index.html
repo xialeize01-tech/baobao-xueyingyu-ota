@@ -50,10 +50,10 @@
     <div class="logo">🎈</div>
     <h1>宝宝学英语</h1>
     <div class="sub">6 岁宝宝英语启蒙乐园</div>
-    <div class="ver">最新版 v1.5.6</div>
+    <div class="ver">最新版 v1.5.7</div>
 
-    <a class="dl" href="https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.5.6/baobao-xueyingyu-debug-v1.5.6.apk">⬇ 下载安装包（安卓 APK）</a>
-    <a class="dl mirror" href="https://ghproxy.net/https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.5.6/baobao-xueyingyu-debug-v1.5.6.apk">国内加速下载</a>
+    <a class="dl" href="https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.5.7/baobao-xueyingyu-debug-v1.5.7.apk">⬇ 下载安装包（安卓 APK）</a>
+    <a class="dl mirror" href="https://ghproxy.net/https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.5.7/baobao-xueyingyu-debug-v1.5.7.apk">国内加速下载</a>
 
     <div class="qrwrap">
       <img src="qr.svg" alt="扫码下载" />
@@ -62,7 +62,7 @@
 
     <div class="notes">
       <b>本次更新：</b><br/>
-      1）修复 AI 拍照/选图无反应：改为内置原生相机/相册桥，点击「📷 拍照 / 选图」可直接拍照或从相册选图；<br/>
+      1）彻底修复 AI 拍照/选图点击无反应：选图改用自定义 HTML 浮层（不再用 confirm/alert，避免被 WebView 静默吞掉）；拍照/发送/保存按钮改 inline onclick（避免 OTA 注入时初始化脚本失绑）；<br/>
       2）AI 密钥内嵌——默认 MiniMax 凭证已内置，开箱即用免输入；保留「⚙️ AI 密钥」可手动覆盖内置默认值；<br/>
       3）滑动返回仍为屏幕内任意位置横向滑动返回上一层。覆盖安装后学习进度不丢失。
     </div>
