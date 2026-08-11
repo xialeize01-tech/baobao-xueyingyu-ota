@@ -1,8 +1,7 @@
 {
-  "apkVersion": "1.4.0",
-  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.4.0/baobao-xueyingyu-debug-1.4.0.apk",
-  "apkPage": "https://xialeize01-tech.github.io/baobao-xueyingyu-ota/",
-  "apkSize": 22999771,
-  "notes": "新增「单字查询」工具：输入英文单词即可美式/英式发音、查看有道释义与双语日常口语例句，并提供拆词联想/词根词缀/谐音三种邪修记忆法（离线可用）。WebView 放开 file:// 跨域限制以支持词典查询。",
-  "date": "2026-08-10"
+  "apkVersion": "1.4.1",
+  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.4.1/baobao-xueyingyu-debug-v1.4.1.apk",
+  "notes": "v1.4.1 安装包：应用内下载安装闭环 + 全屏滑动返回修复。覆盖安装不丢失学习进度。",
+  "date": "2026-08-11",
+  "size": 23004491
 }
