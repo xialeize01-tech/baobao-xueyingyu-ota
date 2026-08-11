@@ -1,9 +1,9 @@
 {
-  "version": "1.5.6",
-  "file": "releases/app-1.5.6.html",
-  "size": 966038,
-  "sha256": "5bc0f5afe0c229fbacf12a1b0ee5a50fb90285dd5c017b6cdebef02c1c457b43",
-  "notes": "修复 AI 拍照/选图无反应：原 Capacitor Camera 插件未接入原生工程导致调用悬空，改为内置 NativeBridge.takePhoto 桥（系统相机+相册），开箱即用",
+  "version": "1.5.7",
+  "file": "releases/app-1.5.7.html",
+  "size": 968201,
+  "sha256": "59686b7ff13754963e90cd027d4b8f56ddf3251a6a71628052237b8c180ba29e",
+  "notes": "修复 AI 拍照/选图点击无反应：原用 confirm()/alert() 在部分 ROM/WebView 下被静默吞掉；改为自定义 HTML 选图浮层 + aiToast 可见提示，任何 WebView 都能正常弹出。纯前端改动，OTA 热更，无需重装 APK。",
   "date": "2026-08-11",
-  "minNativeVersion": "1.5.4"
+  "minNativeVersion": "1.5.6"
 }
