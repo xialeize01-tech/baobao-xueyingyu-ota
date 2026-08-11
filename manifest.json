@@ -1,9 +1,9 @@
 {
-  "version": "1.5.9",
-  "file": "releases/app-1.5.9.html",
-  "size": 969110,
-  "sha256": "9ed89791d604f6bf3f4d760c804b27fb6275b3f11323ded4ab05cf19ff38eb00",
-  "notes": "修复 AI 拍照后永远「正在识别中」卡死：根因为 __onPhoto 在调 aiCall 前把 aiState.busy 置 true，而 aiCall 首行 if(busy) return 直接拦截、AI 请求永不发出。现已在发起前清空 busy。同时：识别结果为空（多为 MiniMax 视觉模型 MiniMax-VL-01 账号未开通/鉴权异常）时显示明确引导与重试按钮，不再空白无提示。纯前端热更。",
+  "version": "1.5.10",
+  "file": "releases/app-1.5.10.html",
+  "size": 969544,
+  "sha256": "a67a0c1228ffbcef69b8f283a7d6b022368acbc394b71b346edd0c771508303e",
+  "notes": "修复 AI 对话可见性：①发送文字（含追问）立即显示对话区，用户自己的气泡不再因首轮结果未回而藏在隐藏的 aiChat 里「看不到」；②首轮失败（如图片识别失败）也显示对话区，让用户发出的文字可见；配合 1.5.9 的「拍照卡死」修复与「空结果明确提示」。聊天链路（文本模型 MiniMax-Text-01 实测正常）已可正常运行。注：拍照识别依赖 MiniMax 视觉模型 MiniMax-VL-01，当前账号返回 2013 unknown model（未开通视觉模型权限），需账号侧开通后方可识别。纯前端热更。",
   "date": "2026-08-11",
   "minNativeVersion": "1.5.6"
 }
