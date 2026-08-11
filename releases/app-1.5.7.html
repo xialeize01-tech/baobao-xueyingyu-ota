@@ -4579,16 +4579,12 @@ function escapeHtml(s){
   return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
-// 绑定拍照 / 发送按钮（DOM 就绪后）
-(function bindAiButtons(){
-  const shoot = document.getElementById('aiShootBtn');
-  if(shoot) shoot.addEventListener('click', aiShoot);
-  const send = document.getElementById('aiSend');
-  if(send) send.addEventListener('click', aiSend);
+// 拍照/发送/保存按钮均使用 inline onclick（与 aiOpen 一致），
+// 避免 OTA 经 document.write 注入时初始化脚本时机问题导致 addEventListener 失绑、点击无反应。
+// 此处仅补绑输入框回车发送。
+(function bindAiInput(){
   const input = document.getElementById('aiInput');
   if(input) input.addEventListener('keydown', function(e){ if(e.key === 'Enter') aiSend(); });
-  const ks = document.getElementById('aiKeySave');
-  if(ks) ks.addEventListener('click', aiKeySave);
 })();
 
 /* 启动收尾：清零看门狗（证明本版本能正常启动）+ 显示版本号 + 定时自动检查 */
@@ -4635,7 +4631,7 @@ function escapeHtml(s){
         <div class="ai-empty" id="aiEmpty">
           <div class="ai-empty-ico">📸</div>
           <p>拍一张作业照，AI 帮你检查错题、讲解知识点，还能接着追问～</p>
-          <button class="ai-shoot" id="aiShootBtn" type="button">📷 拍照 / 选图</button>
+          <button class="ai-shoot" id="aiShootBtn" type="button" onclick="aiShoot()">📷 拍照 / 选图</button>
         </div>
 
         <div class="ai-working" id="aiWorking" style="display:none">
@@ -4671,7 +4667,7 @@ function escapeHtml(s){
         <label class="ai-label">Group ID <span style="color:#888;font-weight:400">（可选）</span></label>
         <input class="ai-input" id="aiGidInput" type="text" placeholder="留空也可，部分账号调用视觉模型时需要" autocomplete="off" />
         <p class="ai-key-tip" style="font-size:12px;opacity:.85">Group ID 是你 MiniMax 账号下的「组/工作区」标识，仅<b>使用「拍照答疑」视觉模型</b>时才可能需要；普通对话留空即可。它与 API Key 在同一账号页面获取。</p>
-        <button class="ai-shoot" id="aiKeySave" type="button">保存并启用</button>
+        <button class="ai-shoot" id="aiKeySave" type="button" onclick="aiKeySave()">保存并启用</button>
       </div>
     </div>
   </div>
