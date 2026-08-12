@@ -1,7 +1,7 @@
 {
-  "apkVersion": "1.6.4",
-  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.6.4/baobao-xueyingyu-debug-v1.6.4.apk",
-  "notes": "v1.6.4 安装包：AI 学习助手体验优化——对话框带时间戳；拍照/选图改为「待发送图片」附件，输入文字后一起识别；原生提示词实现「先识别→判学习范围→范围内讲解/超范围拒绝」。覆盖安装不丢失学习进度。",
+  "apkVersion": "1.6.5",
+  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.6.5/baobao-xueyingyu-debug-v1.6.5.apk",
+  "notes": "v1.6.5 安装包：内置与 OTA 1.6.5 一致的 AI 学习助手——完整对话模式，每条消息带 HH:MM 时间戳；拍照/选图先挂起为附件，输入文字后随图一起识别；识别后由原生提示词判断是否在学习范围。覆盖安装不丢失学习进度。",
   "date": "2026-08-12",
-  "size": 25479716
+  "size": 25479727
 }
