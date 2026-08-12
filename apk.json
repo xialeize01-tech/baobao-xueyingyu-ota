@@ -1,7 +1,7 @@
 {
-  "apkVersion": "1.5.7",
-  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.5.7/baobao-xueyingyu-debug-v1.5.7.apk",
-  "notes": "v1.5.7 安装包：彻底修复 AI 拍照/选图点击无反应——选图改用自定义 HTML 浮层（不再用 confirm/alert，避免被 WebView 静默吞掉），拍照/发送/保存按钮改 inline onclick（避免 OTA 注入时初始化脚本失绑）；保留内置 MiniMax 密钥与 NativeBridge.takePhoto 相机/相册桥。覆盖安装不丢失学习进度。",
-  "date": "2026-08-11",
-  "size": 25479102
+  "apkVersion": "1.6.0",
+  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.6.0/baobao-xueyingyu-debug-v1.6.0.apk",
+  "notes": "v1.6.0 安装包：修复 AI 拍照答疑图片识别不可用——MiniMax 视觉模型由已下线的 MiniMax-VL-01 升级为当前多模态模型 MiniMax-M3（OpenAI 兼容接口 /v1/chat/completions），图片经 image_url 数据 URI 直传，原生关闭思考块并剥离 <think> 标签以保证结构化 JSON 干净。图片识别与 AI 对话现已正常。覆盖安装不丢失学习进度。",
+  "date": "2026-08-12",
+  "size": 25479815
 }
