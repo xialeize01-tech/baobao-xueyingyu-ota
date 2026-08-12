@@ -1,7 +1,7 @@
 {
-  "apkVersion": "1.6.0",
-  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.6.0/baobao-xueyingyu-debug-v1.6.0.apk",
-  "notes": "v1.6.0 安装包：修复 AI 拍照答疑图片识别不可用——MiniMax 视觉模型由已下线的 MiniMax-VL-01 升级为当前多模态模型 MiniMax-M3（OpenAI 兼容接口 /v1/chat/completions），图片经 image_url 数据 URI 直传，原生关闭思考块并剥离 <think> 标签以保证结构化 JSON 干净。图片识别与 AI 对话现已正常。覆盖安装不丢失学习进度。",
+  "apkVersion": "1.6.1",
+  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.6.1/baobao-xueyingyu-debug-v1.6.1.apk",
+  "notes": "v1.6.1 安装包：为 AI 学习助手设定「范围与人格」系统规则——仅限学习领域（游戏/娱乐/八卦等礼貌拒绝）、实事求是不模棱两可、不确定问题主动提示绝不臆测、可爱老师+耐心家长+好奇小学生的语气。照片/传图仍走 MiniMax-M3 图片识别。覆盖安装不丢失学习进度。",
   "date": "2026-08-12",
-  "size": 25479815
+  "size": 25480270
 }
