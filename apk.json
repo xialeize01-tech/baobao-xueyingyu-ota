@@ -1,7 +1,7 @@
 {
-  "apkVersion": "1.6.1",
-  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.6.1/baobao-xueyingyu-debug-v1.6.1.apk",
-  "notes": "v1.6.1 安装包：为 AI 学习助手设定「范围与人格」系统规则——仅限学习领域（游戏/娱乐/八卦等礼貌拒绝）、实事求是不模棱两可、不确定问题主动提示绝不臆测、可爱老师+耐心家长+好奇小学生的语气。照片/传图仍走 MiniMax-M3 图片识别。覆盖安装不丢失学习进度。",
+  "apkVersion": "1.6.3",
+  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.6.3/baobao-xueyingyu-debug-v1.6.3.apk",
+  "notes": "v1.6.3 安装包：原生 MiniMax 模型确认为 MiniMax-M3（多模态，原生支持图文理解），走 OpenAI 兼容 /v1/chat/completions，彻底解决旧包 unknown model minimax-vl-01 问题。AI 学习助手范围与人格规则同 v1.6.1。覆盖安装不丢失学习进度。",
   "date": "2026-08-12",
-  "size": 25480270
+  "size": 25479532
 }
