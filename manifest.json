@@ -1,9 +1,9 @@
 {
-  "version": "1.5.11",
-  "file": "releases/app-1.5.11.html",
-  "size": 969436,
-  "sha256": "2db30c37238135af6e633a964db86bce2d28eaf8d6efb75e6e7d5b86cfae7f04",
-  "notes": "前端热更：将 AI 识别失败提示文案由「MiniMax-VL-01 账号未开通」更正为通用准确表述（图片过大/网络/服务繁忙，建议重试或改用文字提问）。配合已发布的 APK v1.6.0（MiniMax 视觉模型升级为 MiniMax-M3，图片识别现已正常），拍照答疑图片识别与 AI 对话均可用。",
+  "version": "1.6.2",
+  "file": "releases/app-1.6.2.html",
+  "size": 967656,
+  "sha256": "e6a47a6126a3d76c30bdc6ec21d892279a618b369449bc7820eec84b228eb440",
+  "notes": "前端热更：AI 入口与界面升级为「AI 学习助手」。打开即是对话窗口，底部提供拍照、相册、语音、打字四种输入方式；首页入口文案与弹窗标题同步改为「AI 学习助手」，不再强制先拍照。",
   "date": "2026-08-12",
   "minNativeVersion": "1.5.6"
 }
