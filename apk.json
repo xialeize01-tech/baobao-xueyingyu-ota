@@ -1,7 +1,7 @@
 {
-  "apkVersion": "1.6.5",
-  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.6.5/baobao-xueyingyu-debug-v1.6.5.apk",
-  "notes": "v1.6.5 安装包：内置与 OTA 1.6.5 一致的 AI 学习助手——完整对话模式，每条消息带 HH:MM 时间戳；拍照/选图先挂起为附件，输入文字后随图一起识别；识别后由原生提示词判断是否在学习范围。覆盖安装不丢失学习进度。",
-  "date": "2026-08-12",
-  "size": 25479727
+  "apkVersion": "1.6.6",
+  "apkUrl": "https://github.com/xialeize01-tech/baobao-xueyingyu-ota/releases/download/apk-v1.6.6/baobao-xueyingyu-debug-v1.6.6.apk",
+  "notes": "v1.6.6 安装包：内置与 OTA 1.6.6 一致的朗读修复——audio 播放器改为「播完(onended)」才算一句结束，修复全文/逐句朗读被提前打断导致部分读音缺失；加全局朗读锁防快速连点并发；课文「读给我听」按标点分句逐句朗读。覆盖安装不丢失学习进度。",
+  "date": "2026-08-14",
+  "size": 25479720
 }
