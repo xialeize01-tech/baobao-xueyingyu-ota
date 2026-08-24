@@ -1,9 +1,9 @@
 {
-  "version": "1.6.10",
-  "file": "releases/app-1.6.10.html",
-  "size": 985319,
-  "sha256": "810d5ccb9935acae9745766f4c9fa4e4ce8f3d4890cbf0ac6e88ddf1e70f6ee5",
-  "notes": "全量优化：AI 对话历史/朗读/成长数据/护眼适老/玩法；原生 max_tokens 升至 4096（需重装 APK 1.6.7）",
+  "version": "1.6.11",
+  "file": "releases/app-1.6.11.html",
+  "size": 999652,
+  "sha256": "6f680bd50da6a44accce62c754a69bb7ce157719513b73987999e508787d14d9",
+  "notes": "古诗词栏目补充非唐诗名篇（宋词/古文/诗经/乐府）：苏轼、李清照、岳飞、辛弃疾、李煜、王勃滕王阁序、爱莲说、陋室铭、桃花源记、岳阳楼记、关雎、蒹葭、木兰诗等",
   "date": "2026-08-24",
   "minNativeVersion": "1.6.7"
 }
